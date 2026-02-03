@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>e-Night Store | Digital Gaming store</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0e0e14;
+  color: #fff;
+}
+
+/* NAVBAR */
+nav {
+  background: #111;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  opacity: 0.9;
+}
+
+nav a:hover { opacity: 1; }
+
+nav img { width: 18px; height: 18px; }
+
+/* HEADER */
+header {
+  background: linear-gradient(135deg, #6c4cff, #9d7bff);
+  padding: 25px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+header img {
+  width: 55px;
+  height: 55px;
+  border-radius: 12px;
+}
+
+header h1 { margin: 0; font-size: 26px; }
+header p { margin: 4px 0 0; font-size: 14px; }
+
+/* ETALASE */
+.container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #181820;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-content { padding: 15px; }
+
+.card-content h3 { margin: 0 0 8px; }
+
+.price { color: #9d7bff; font-weight: bold; margin-bottom: 10px; }
+
+ul { padding-left: 18px; font-size: 14px; }
+
+.order-btn {
+  display: block;
+  margin-top: 12px;
+  text-align: center;
+  background: #6c4cff;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.order-btn:hover { background: #8366ff; }
+
+footer { text-align: center; padding: 15px; font-size: 13px; opacity: 0.6; }
+</style>
+</head>
+
+<body>
+
+<!-- MENU -->
+<nav>
+  <a href="#home">🛍 all product</a>
+  <a href="https://discord.gg/3Y9VaGCcgk" target="_blank">
+    <img src="https://cdn.discordapp.com/attachments/1446552136371667004/1467917657733857300/discord-logo-discord-logo-transparent-discord-icon-transparent-free-free-png.png?ex=6982205a&is=6980ceda&hm=de7dab06827f211f630fa5c275dc7093d9cd8f68352b8a9ad727c19b97f34896&">
+    Discord
+  </a>
+  <a href="https://discord.com/channels/1446006870610284747/1446017346899808409" target="_blank">⚒️ Support</a>
+</nav>
+
+<!-- HEADER -->
+<header>
+  <img src="https://cdn.discordapp.com/attachments/1446552136371667004/1467921570495467641/20260131_214506.png?ex=698223ff&is=6980d27f&hm=77245297168766996456400548c98c3a1e3e8371ce4652dcc2aa2a28ae00abfb&">
+  <div>
+    <h1>e-Night Store | Digital Gaming Store</h1>
+    <p>Aman, murah, dan terpercaya</p>
+  </div>
+  </header>
+<img src="https://cdn.discordapp.com/attachments/1446552136371667004/1462831910999953438/standard_26.gif?ex=6982bda1&is=69816c21&hm=9413d93372662f3bbfeb8bdcacd21c66977a74fadcd288d2ed608346f17a682f&" alt="enightstore" width="385">
+<!-- ETALASE -->
+<div class="container" id="home">
+
+<!-- MFA -->
+<div class="card">
+<img src="https://cdn.discordapp.com/attachments/1262355992054861866/1426980766864248882/maxresdefault.webp?ex=698183a6&is=69803226&hm=de709df50c8ac899269031264970ae3eb60a52885ed08780c2ee6a98045d425c&">
+<div class="card-content">
+<h3>MFA Permanent</h3>
+<div class="price">Rp 150.000</div>
+<ul>
+<li>[+] Bisa ganti username</li>
+<li>[+] Bisa ganti skin</li>
+<li>[+] Bisa ganti password</li>
+<li>[+] Bisa ganti email</li>
+<li>[+] Lisensi Java & Bedrock</li>
+</ul>
+<a class="order-btn" href="https://discord.com/channels/1446006870610284747/1446017346899808409" target="_blank">Order via Discord</a>
+</div>
+</div>
+
+<!-- Redeem Code -->
+<div class="card">
+<img src="https://cdn.discordapp.com/attachments/1262355992054861866/1426980766864248882/maxresdefault.webp?ex=698183a6&is=69803226&hm=de709df50c8ac899269031264970ae3eb60a52885ed08780c2ee6a98045d425c&">
+<div class="card-content">
+<h3>MC Java & Bedrock Redeem Code</h3>
+<div class="price">Rp 305.000</div>
+<ul>
+<li>[+] Fresh & segel</li>
+<li>[+] Resmi distributor Minecraft</li>
+<li>[+] Permanent</li>
+</ul>
+<a class="order-btn" href="https://discord.com/channels/1446006870610284747/1446017346899808409" target="_blank">Order via Discord</a>
+</div>
+</div>
+
+<!-- MCPE -->
+<div class="card">
+<img src="https://cdn.discordapp.com/attachments/1463178895015805045/1465915410766368798/67a1c7698d4da-cara-download-minecraft-bedrock-edition-gratis-di-hp-mudah-aman-dan-tanpa-ribet_.jpg?ex=698217dd&is=6980c65d&hm=97acc18a1a07273757e67b26fab336c033f6d4f4c9ff70bb182805e2ce2fa7cd&">
+<div class="card-content">
+<h3>Minecraft Pocket Edition</h3>
+<div class="price">Rp 14.000</div>
+<ul>
+<li>[+] Download ori Playstore</li>
+<li>[+] Bisa masuk server</li>
+<li>[+] Bisa masuk realms</li>
+</ul>
+<a class="order-btn" href="https://discord.com/channels/1446006870610284747/1446017346899808409" target="_blank">Order via Discord</a>
+</div>
+</div>
+
+<!-- Home Cape -->
+<div class="card">
+<img src="https://cdn.discordapp.com/attachments/1381814830318485535/1450207184603447430/b69d6840faf88dadc57da2633aed0835.webp?ex=6981a2f0&is=69805170&hm=44a500d08c634b3ec7613ae12e5ea1ad93526b2e52f7e19e611c335c55283664&">
+<div class="card-content">
+<h3>Home Cape</h3>
+<div class="price">Rp 15.000</div>
+<ul><li>[+] Redeem code</li></ul>
+<a class="order-btn" href="https://discord.com/channels/1446006870610284747/1446017346899808409" target="_blank">Order via Discord</a>
+</div>
+</div>
+
+<!-- Menace Cape -->
+<div class="card">
+<img src="https://cdn.discordapp.com/attachments/1381814830318485535/1450207183990952026/7f4224b74be5756a78973d2621f85566.webp?ex=6981a2f0&is=69805170&hm=733a0a559971d1b7af0f3519dd455f0f758317c91870cb839ecf4bf5bb3a33e8&">
+<div class="card-content">
+<h3>Menace Cape</h3>
+<div class="price">Rp 18.000</div>
+<ul><li>[+] Redeem code</li></ul>
+<a class="order-btn" href="https://discord.com/channels/1446006870610284747/1446017346899808409" target="_blank">Order via Discord</a>
+</div>
+</div>
+
+<!-- Minecraft Windows -->
+<div class="card">
+  <img src="https://cdn.discordapp.com/attachments/1262356158749085696/1413950701490671656/663c3ed6085b3-minecraft-bedrock-edition_.webp?ex=6982e3f5&is=69819275&hm=0c97543f97bd96f6b76e6cd50c5c50b13b5f68a4a640e8725d7e2bbcc546b415&">
+  <div class="card-content">
+    <h3>Minecraft Windows</h3>
+    <div class="price">Rp 50.000</div>
+    <ul>
+      <li>[+] Download ori di Microsoft Store</li>
+      <li>[+] Login Xbox</li>
+      <li>[+] Bisa masuk Realms</li>
+      <li>[+] Bisa masuk Server</li>
+    </ul>
+    <a class="order-btn"
+       href="https://discord.com/channels/1446006870610284747/1446017346899808409"
+       target="_blank">Order via Discord</a>
+  </div>
+</div>
+
+<!-- Minecraft Dungeons -->
+<div class="card">
+  <img src="https://cdn.discordapp.com/attachments/1262356362214641706/1413951591853195284/59686225dba24636062a421593effdb4fe136bbfd67b11c621fe92ed36a65734.webp?ex=6982e4c9&is=69819349&hm=e198c7a5bdb92de48f661b083eb341f6086253167682095e1bc99858beadc8e0&">
+  <div class="card-content">
+    <h3>Minecraft Dungeons</h3>
+    <div class="price">Rp 200.000</div>
+    <ul>
+      <li>[+] Steam account / Microsoft redeem code</li>
+      <li>[+] Siap ganti data</li>
+      <li>[+] Full access</li>
+    </ul>
+    <a class="order-btn"
+       href="https://discord.com/channels/1446006870610284747/1446017346899808409"
+       target="_blank">Order via Discord</a>
+  </div>
+</div>
+
+<!-- Minecraft Legends -->
+<div class="card">
+  <img src="https://cdn.discordapp.com/attachments/1262356448424230912/1413951823554805852/Minecraft_Legends_PreOrder_Trailer_Thumbnail_1280x720.webp?ex=6982e500&is=69819380&hm=38a5e96b1d33a5b65ff3a40172cd9d6c38b569dea9552cda1bc4b2aa66fc5d01&">
+  <div class="card-content">
+    <h3>Minecraft Legends</h3>
+    <div class="price">Rp 50.000</div>
+    <ul>
+      <li>[+] Retail code Microsoft Store</li>
+      <li>[+] Permanent</li>
+      <li>[+] Full access</li>
+    </ul>
+    <a class="order-btn"
+       href="https://discord.com/channels/1446006870610284747/1446017346899808409"
+       target="_blank">Order via Discord</a>
+  </div>
+</div>
+
+<!-- Robux -->
+<div class="card">
+  <img src="https://cdn.discordapp.com/attachments/1446552136371667004/1457542812395507774/ea98f8c6c438d2d8136a6751282a153c6b28b892.png?ex=69829d86&is=69814c06&hm=fc9b02da2852444e6248fffadaefa1cc5870c8233bb9eff1ec50a2fffcc6bd67&">
+  <div class="card-content">
+    <h3>Robux</h3>
+    <div class="price">Mulai Rp 14.000</div>
+    <ul>
+      <li>[+] Berkelipatan</li>
+      <li>[+] Proses ± 5 hari</li>
+      <li>[+] Aman</li>
+    </ul>
+    <a class="order-btn"
+       href="https://discord.com/channels/1446006870610284747/1446017346899808409"
+       target="_blank">Order via Discord</a>
+  </div>
+</div>
+
+<!-- Redfinger -->
+<div class="card">
+  <img src="https://cdn.discordapp.com/attachments/1446552136371667004/1456893869026185400/hqdefault.jpg?ex=6982e426&is=698192a6&hm=78b990f2920e8f296a556689b6054d6ad7a616863dcb8f2e57418198f3c5a195&">
+  <div class="card-content">
+    <h3>Redfinger</h3>
+    <div class="price">VIP 7D Rp20.100 / VIP 30D Rp59.000</div>
+    <ul>
+      <li>[+] Redeem code</li>
+      <li>[+] Official</li>
+      <li>[+] Aman</li>
+    </ul>
+    <a class="order-btn"
+       href="https://discord.com/channels/1446006870610284747/1446017346899808409"
+       target="_blank">Order via Discord</a>
+  </div>
+</div>
+<footer>
+© 2026 e-Night Store • All orders handled via Discord
+</footer>
+<footer>
+  by elshaday anugerah rondeng
+</footer>
+
+</body>
+</html>
+
+<img src="https://cdn.discordapp.com/attachments/1446552136371667004/1462831910999953438/standard_26.gif?ex=6982bda1&is=69816c21&hm=9413d93372662f3bbfeb8bdcacd21c66977a74fadcd288d2ed608346f17a682f&" alt="enightstore" width="371">
